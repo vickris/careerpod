@@ -1,0 +1,51 @@
+$border: #e9e9e9;
+$highlight: #d2674e;
+$text: #424652;
+$well: rgba(245, 245, 245, 0.44);
+$greyish: rgba(66, 70, 82, 0.71);
+
+.interest {
+  margin-top: -20px;
+  padding: 10px 0;
+  h3 {
+    margin: 10px 0;
+  }
+}
+
+.post-form {
+  border: solid 1px #e9e9e9;
+  padding-top: 20px;
+  height: 100%;
+  max-height: 550px;
+  overflow-y: scroll;
+
+  .panel {
+    border-radius: 0 !important;
+    .panel-thumbnail {
+      padding: 0px;
+      height: 108px;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        display: block;
+      }
+    }
+    .panel-body {
+      padding: 15px;
+      .lead {
+        font-size: 15px;
+        margin-bottom: 0px;
+      }
+    }
+    &:hover {
+      border: solid 1px lighten($highlight, 20%);
+    }
+  }
+}
+
+button {
+  margin-top: 20px;
+}
+
+

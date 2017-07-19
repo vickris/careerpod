@@ -1,0 +1,1 @@
+function navWidth(){var i=$("#breadcrumb");i.width(i.parent().width())}function sideWidth(){var i=$("#sidenav"),d=i.width();i.width(d)}$(document).ready(function(){navWidth(),sideWidth(),$(window).on("scroll resize",function(){navWidth(),sideWidth()})});

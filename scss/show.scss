@@ -1,0 +1,259 @@
+$border: #e9e9e9;
+$highlight: #d2674e;
+$text: #424652;
+$well: rgba(245, 245, 245, 0.44);
+$greyish: rgba(66, 70, 82, 0.71);
+
+header {
+  text-align: center;
+  .date {
+    font-size: .9em;
+    color: #9a9da4;
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
+    font-weight: 700;
+    color: $text;
+  }
+  hr {
+    margin: 1.4em auto;
+  }
+}
+
+.content {
+  .podcast_thumbnail {
+    display: block;
+    margin: 0 auto 2rem auto;
+    width: 16rem;
+    max-width: 100%;
+    border-radius: .35rem;
+  }
+  .description {
+    margin: 1.6em 6em;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #586a77;
+  }
+
+  .jp-player {
+    margin: 3rem auto .5rem auto;
+    width: 0px;
+    height: 0px;
+  }
+
+  .jp-audio {
+    width: 70%;
+    margin: 3rem auto .5rem auto;
+    .jp-gui {
+      position: relative;
+      background: #d2674e;
+      transition: background .4s ease-in-out;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 10px;
+
+      ul.jp-controls {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-family: "FontAwesome";
+
+        li {
+          display: list-item;
+          text-align: -webkit-match-parent;
+
+          a {
+            text-decoration: none;
+            background-color: transparent;
+            color: #fff;
+          }
+
+          .jp-play {
+            width: 60px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 43px;
+            border-right: 1px solid #dc8a77;
+          }
+        }
+      }
+
+
+
+      .jp-progress {
+        background-color: #803321;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        position: absolute;
+        right: 22%;
+        top: 15px;
+        width: 65%;
+      }
+      .jp-time-holder {
+        color: #FFF;
+        font-size: 12px;
+        line-height: 14px;
+        position: absolute;
+        right: 90px;
+        top: 14px;
+      }
+
+      .jp-volume-bar {
+        position: absolute;
+        right: 10px;
+        top: 17px;
+        width: 45px;
+        height: 8px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #803321;
+        overflow: hidden;
+      }
+
+    }
+  }
+
+  p {
+    margin-bottom: 1.6em;
+    font-size: 1.7rem;
+    line-height: 2;
+  }
+
+  .tags.podshow {
+    text-align: center;
+  }
+
+  .tags {
+    .tag_link {
+      font-size: 1.0rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      color: darken($greyish, 10%);
+      display: inline;
+      background: rgb(245, 245, 245);
+      border-radius: 0.6rem;
+      padding: 1rem 1.7rem;
+      text-decoration: none;
+      &:hover {
+        background: lighten($highlight, 4%);
+        color: #fff;
+      }
+    }
+  }
+}
+
+.likes {
+  font-size: 1.7rem;
+  margin-top: 50px;
+  .share {
+    a {
+      text-decoration: none;
+      padding-right: 20px;
+      color: $greyish;
+    }
+  }
+  .icons {
+    margin-right: 30px;
+    color: $greyish;
+    .fa {
+      font-size: 2rem;
+      color: $highlight;
+    }
+    .fa.fa-comment-o {
+      color: $text;
+    }
+    .count {
+      padding-left: 5px;
+    }
+  }
+}
+
+#admin_links {
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+  text-align: center;
+  padding: 1em 0;
+  margin: 3em 0;
+  a {
+    color: #9a9da4;
+    margin: 0 1em;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      color: $highlight;
+    }
+  }
+}
+
+.extra {
+  background: $well;
+  h4 {
+    text-align: center;
+    font-weight: 700;
+    margin: 30px;
+  }
+  .more-posts {
+    background: white;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(240,240,240,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(240,240,240,1);
+    box-shadow: 0px 0px 5px 0px rgba(240,240,240,1);
+    .individual-more {
+      padding: 20px 0;
+      p {
+        color: rgba(66,70,82,0.71);
+      }
+      h5 {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+      .who {
+        .name {
+          margin-right: 10px;
+          a {
+            color: $highlight;
+            text-decoration: none;
+          }
+
+        }
+        .stats {
+          color: rgba(66,70,82,0.71);
+          .read-time {
+            margin-right: 10px;
+          }
+          .icons {
+            .count {
+              padding-left: 4px;
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+      .image-holder {
+        img {
+          border: 0;
+          margin-top: -30px;
+        }
+        .extraAvatar {
+          height: 76px;
+          width: 76px;
+        }
+      }
+    }
+    hr {
+      margin: 0
+    }
+  }
+}
+

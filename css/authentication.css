@@ -1,0 +1,92 @@
+#banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 4rem;
+  height: 311px;
+  margin-top: -20px; }
+  #banner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 14rem 0; }
+
+.podcasts_banner {
+  background-image: url("../images/podcasts_banner.jpg"); }
+
+.sign_in_banner {
+  background-image: url("../images/sign_in_banner.jpg"); }
+
+.sign_up_banner {
+  background-image: url("../images/sign_up_banner.jpg"); }
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 2.5em;
+  border: none;
+  padding: 1em;
+  margin: .5em 0 1.2em 0;
+  background: #EDEFF5;
+  border-radius: 0;
+  -webkit-appearance: none; }
+
+.checkbox label {
+  font-size: 14px; }
+
+label {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 0; }
+
+textarea {
+  min-height: 12em; }
+
+input[type="submit"], button {
+  outline: none;
+  background: transparent;
+  border: 2px solid #e9e9e9;
+  text-align: center;
+  font-size: 1em;
+  color: #424652;
+  text-decoration: none;
+  padding: 0.7em 1.5em; }
+  input[type="submit"]:hover, button:hover {
+    border: 2px solid #d2674e;
+    color: #d2674e; }
+
+.project_button {
+  color: #fff;
+  background: #d2674e;
+  padding: 1em 2em;
+  text-decoration: none; }
+
+.button_wrapper {
+  text-align: center;
+  margin: 4em 0 0 0; }
+
+.social-buttons .btn-facebook {
+  color: #fff;
+  background-color: #5193ea;
+  border-color: #2775e2;
+  margin-right: 10px;
+  border-radius: 0px; }
+  .social-buttons .btn-facebook:hover {
+    background-color: #2775e2; }
+.social-buttons .btn-linkedin {
+  color: #fff;
+  background-color: #007bb6;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  border-radius: 0px; }
+  .social-buttons .btn-linkedin:hover {
+    background-color: #005983; }
+.social-buttons .btn-github {
+  color: #fff;
+  background-color: #444;
+  border-color: rgba(0, 0, 0, 0.2); }
+  .social-buttons .btn-github:hover {
+    background-color: #333; }

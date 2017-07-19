@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/application.css">
+  <link rel="stylesheet" href="css/authentication.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">PodPost</a>
+      </div>
+
+      <form class="navbar-form navbar-left box" role="search">
+        <div class="form-group container-2">
+          <span class="icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+          <input type="search" id="search" class="form-control" placeholder="Search...">
+        </div>
+      </form>
+
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Your day?</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle avatarr" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="avatar">
+              <img src="https://cdn-images-1.medium.com/fit/c/64/64/0*K_peS5wrD8I5A-Nq.jpeg" class="avatar-image avatar-image--icon" alt="Christopher Vundi">
+            </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div id="banner" class="sign_up_banner">
+    <h1>Sign up for an Account. It's 100% free.</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form role="form">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Password confirmation:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+
+        <div class="actions text-center">
+          <input type="submit" value="Sign Up">
+        </div>
+        <hr>
+        <div class="social text-center">
+          <p>-OR-</p>
+          <div class="social-buttons">
+            <a href="http://ocademy.herokuapp.com/auth/facebook" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="http://ocademy.herokuapp.com/auth/twitter" class="btn btn-linkedin"><i class="fa fa-linkedin"></i> Linkedin</a>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
